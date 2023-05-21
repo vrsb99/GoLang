@@ -59,6 +59,7 @@ func new_deck_from_file(filename string) deck {
 	return deck(strings.Split(string(bs), ","))
 }
 
+// For slices, pointers are not required as they are already references of the underlying array
 func (d deck) shuffle() {
 	var length int = len(d) - 1
 	var source rand.Source = rand.NewSource(time.Now().UnixMilli())
