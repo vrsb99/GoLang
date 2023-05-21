@@ -10,7 +10,7 @@ Before running this project, ensure that you have the following prerequisites:
 
 ## Installation
 
-1. Clone this repository to your local machine: 
+1. Clone this repository to your local machine: `git clone https://github.com/vrsb99/GoLang`
 2. Change to the project directory: eg. `cd 2_cards`
 3. Run the application: `go run deck.go main.go`
 
@@ -27,5 +27,6 @@ If you encounter any issues while running this project, consider the following s
 This project is licensed under the MIT License.
 
 Acknowledgments
+
 - Thanks to the GoLang community for their valuable resources and support.
 - This project was inspired by various GoLang tutorials and examples found online.
